@@ -26,6 +26,8 @@ workflow過去データ集計用lambda起動シェルの作成
 
 <h2>ツール概要</h2>
 
+<img alt=”figure1” src=.\figure1.png />
+
 ~~~~~
 シェルのパラメータに指定したLambda,payloadFilePath,処理期間
 を基に、payloadを編集してLambdaをコールする。
@@ -123,7 +125,12 @@ format:
 - jsonファイルの読み込み方法
   https://qiita.com/wnoguchi/items/70a808a68e60651224a4		
 
-- lambda実行方法			
-    https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/with-userapp-walkthrough-custom-events-invoke.html
+- lambda実行方法
+  https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/with-userapp-walkthrough-custom-events-invoke.html
 
+- gitインストール
+  https://eng-entrance.com/git-install
 
+- git-ssh設定
+  https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+  
