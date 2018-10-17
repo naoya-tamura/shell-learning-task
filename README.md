@@ -58,7 +58,7 @@ Lambda,payloadFilePath,処理期間はパラメータにて指定可能とする
         (ex:workflow起動用lambda)		
     b.payloadFilePath		
     c.処理期間
-        fromat : from[yyyy-mm-dd],to[yyyy-mm-dd]
+        format : from[yyyy-mm-dd],to[yyyy-mm-dd]
         (ex:2018-09-01,2018-09-31)
     
     ~チェック~
