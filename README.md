@@ -69,13 +69,13 @@ Lambda,payloadFilePath,処理期間はパラメータにて指定可能とする
 
 ２．payloadfileを編集・出力する。			
     a.項番１.bからpayload情報を読み込む
-    c.読み込んだ情報の処理期間を編集する
+    b.読み込んだ情報の処理期間を編集する
         編集方法：
             fromDate ：項番１.cのfrom
             toDate ：項番１.cのto
             executeDate ：項番１.cのfrom
             targetWindow ：項番１.cのfromと項番１.cのtoの日数差
-    b.編集した情報を出力する。	
+    c.編集した情報を出力する。	
         出力先：./payload
         出力ファイル名：input_yyyymmddhhmmss.txt
 
@@ -84,7 +84,7 @@ Lambda,payloadFilePath,処理期間はパラメータにて指定可能とする
     【起動方法】	
         aws cli
     【payload】	
-        項番２で出力したpayloadFilePath
+        項番２.cで出力したpayloadFilePath
 ~~~~~
 
 <h6>payload.json</h6>
@@ -117,7 +117,6 @@ format:
 　現場でDummyの箇所を実データに置き換えて検証してください。
 ・テスト項目４はaws環境が準備できない場合は、現場開発環境のlambdaにて検証してください。
 ・作成したソースコードはgithubにて管理してください。
-　（別途URLをおしらせします。）
 ~~~~~
 
 <h2>~参考資料~</h2>
