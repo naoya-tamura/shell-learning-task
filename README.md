@@ -93,7 +93,7 @@ Lambda,payloadFilePath,処理期間はパラメータにて指定可能とする
 format:
 {
 	"Dummy1": "value1",
-	"data": "\fromDate: yyyy-mm--dd\toDate: yyyy-mm--dd\executeDate: yyyy-mm--dd\targetWindow:99\",
+	"Message":"{\"properties\": {\"toDate\": \"YYYY-MM-DD\", \"executeDate\": \"YYYY-MM-DD\", \"fromDate\": \"YYYY-MM-DD\"}, \"targetWindow\": \"99\"}",
 	"Dummy2": "value3"
 }
 ~~~~~
